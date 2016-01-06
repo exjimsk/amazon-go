@@ -12,9 +12,9 @@ import (
 func createAmazonRequest() amazon.Request {
 
 	cred := amazon.Credentials{ 
-		AssociateTag: "affilia0a1-20", 
-		AccessKeyId: "AKIAJFDVMAPZJZHURAJQ", 
-		SecretKey: "UTWrgiB+xYDkyvNKhJH+igrRm81CWhe57Z6/m1S",
+		AssociateTag: "associatetag", 
+		AccessKeyId: "accesskeyid", 
+		SecretKey: "secretkey",
 		Marketplace: "webservices.amazon.com" }
 	
 	req := amazon.NewRequest(cred)
@@ -39,20 +39,4 @@ func TestSignedAmazonRequest(t *testing.T) {
 
 	fmt.Printf("Signed url: \n%v\n", s_URL)
 }
-
-func TestAmazonResponse(t *testing.T) {
-	req := createAmazonRequest()
-	s_URL := req.SignedURL()
-	
-	resp, err := http.Get(s_URL)
-	if err != nil { 
-		fmt.Println(err) 
-	} else { 
-		defer resp.Body.Close()
-		body, err := ioutil.ReadAll(resp.Body)
-		if err == nil { fmt.Println(body) }
-	}
-}
-
-
 
