@@ -72,3 +72,13 @@ AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&AssociateTag=mytag-20&ItemId=0679722769&Oper
 
 
 
+func TestSignedAmazonRequest(t *testing.T) {
+	EXPECTED := "http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&AssociateTag=mytag-20&ItemId=0679722769&Operation=ItemLookup&ResponseGroup=Images%2CItemAttributes%2COffers%2CReviews&Service=AWSECommerceService&Timestamp=2014-08-18T12%3A00%3A00Z&Version=2013-08-01&Signature=j7bZM0LXZ9eXeZruTqWm2DIvDYVUU3wxPPpp%2BiXxzQc%3D"
+	
+	if RESULT := r.SignedURL(); RESULT != EXPECTED {
+		t.Errorf("\nEXPECTED:\n%v\nRESULT:\n%v", EXPECTED, RESULT)
+	} else { fmt.Println("TestSignedAmazonRequest: OK") }
+}
+
+
+

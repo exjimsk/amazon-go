@@ -79,7 +79,7 @@ func (r Request) SignedURL() string {
 	cStr := r.CanonicalString()
 	sig := HashSignature(cStr, r.Credentials.SecretKey)
 	
-	r.URL.RawQuery = fmt.Sprintf("%v&Signature=%v", r.sortedParametersAsString(false), sig)
+	r.URL.RawQuery = fmt.Sprintf("%v&Signature=%v", r.sortedParametersAsString(true), sig)
 	return r.URL.String()
 
 }
