@@ -7,6 +7,11 @@ To create a signed Amazon Product request, use a Credentials struct to create a 
 
 	import (
 		"github.com/exjimsk/amazon-go"
+		
+		"io/ioutil"
+		"net/http"
+		
+		"fmt"
 	)
 	
 	fun Main() {
@@ -29,6 +34,13 @@ To create a signed Amazon Product request, use a Credentials struct to create a 
 		// make sure to add a timestamp
 		r.Parameters["Timestamp"] = amazon.CurrentTimestamp()
 
-		signed_url := r.SignedURL()
 		
+		signed_url := r.SignedURL()
+		resp, err := http.Get(signed_url)
+		if err == nil {
+			defer resp.Body.Close()
+			body, _ := ioutil.ReadAll(resp.Body)
+			
+			fmt.Println(body)
+		}
 	}
