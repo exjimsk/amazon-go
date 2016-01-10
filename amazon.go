@@ -10,6 +10,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 )
+
 /*
 	Credentials type
 */
@@ -40,6 +41,7 @@ func HashSignature(str string, secret string) string {
 func CurrentTimestamp() string {
 	return time.Now().UTC().Format(time.RFC3339)
 }
+
 
 /*
 	Request type
@@ -77,14 +79,14 @@ func (r Request) CanonicalString() string {
 
 func (r Request) SignedURL() string {
 	cStr := r.CanonicalString()
+	// fmt.Printf("CANONICAL STRING:\n%v\n", cStr)
+
 	sig := HashSignature(cStr, r.Credentials.SecretKey)
 	
 	r.URL.RawQuery = fmt.Sprintf("%v&Signature=%v", r.sortedParametersAsString(true), sig)
+
 	return r.URL.String()
-
 }
-
-
 
 
 /*
@@ -100,6 +102,9 @@ func (r Request) sortedParametersAsString(escape bool) string {
 		var _p string
 		if escape {
 			_p = fmt.Sprintf("%v=%v", p, url.QueryEscape(r.Parameters[p]))
+			
+			// force encoding of "+" into "%20"
+			_p = strings.Replace(_p, "+", "%20", -1)
 		} else { 
 			_p = fmt.Sprintf("%v=%v", p, r.Parameters[p])
 		}
