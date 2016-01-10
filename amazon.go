@@ -11,19 +11,7 @@ import (
 	"encoding/base64"
 )
 
-/*
-	Credentials type
-*/
-type Credentials struct {
-	AssociateTag 	string
-	AccessKeyId 	string
-	SecretKey 		string
-	Marketplace		string
-}
 
-/*
-	Public functions
-*/
 func HashSignature(str string, secret string) string {
 
 	// do the sha-256 hash on hash string using secret key
@@ -43,14 +31,25 @@ func CurrentTimestamp() string {
 }
 
 
-/*
-	Request type
-*/
+//================================================================
+
+
+type Credentials struct {
+	AssociateTag 	string
+	AccessKeyId 	string
+	SecretKey 		string
+	Marketplace		string
+}
+
 type Request struct {
 	URL	url.URL
 	Parameters map[string]string
 	Credentials Credentials
 }
+
+
+//================================================================
+
 
 func NewRequest(c Credentials) Request {
 	r := Request{}
@@ -79,19 +78,12 @@ func (r Request) CanonicalString() string {
 
 func (r Request) SignedURL() string {
 	cStr := r.CanonicalString()
-	// fmt.Printf("CANONICAL STRING:\n%v\n", cStr)
-
 	sig := HashSignature(cStr, r.Credentials.SecretKey)
-	
 	r.URL.RawQuery = fmt.Sprintf("%v&Signature=%v", r.sortedParametersAsString(true), sig)
 
 	return r.URL.String()
 }
 
-
-/*
-	Private helpers
-*/
 func (r Request) sortedParametersAsString(escape bool) string {
 
 	// instantiate container slice
