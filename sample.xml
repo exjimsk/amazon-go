@@ -1,0 +1,1515 @@
+<?xml version="1.0" ?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2013-08-01">
+	<OperationRequest>
+		<HTTPHeaders>
+			<Header Name="UserAgent" Value="Go-http-client/1.1"/>
+		</HTTPHeaders>
+		<RequestId>ed00a56f-7cf7-4359-a484-516b87f89594</RequestId>
+		<Arguments>
+			<Argument Name="AWSAccessKeyId" Value="AKIAITNAT53SLPSW67FA"/>
+			<Argument Name="AssociateTag" Value="consumerdat05-20"/>
+			<Argument Name="Keywords" Value="sennheiser"/>
+			<Argument Name="Operation" Value="ItemSearch"/>
+			<Argument Name="ResponseGroup" Value="ItemAttributes,ItemIds,OfferFull,Offers,OfferSummary"/>
+			<Argument Name="SearchIndex" Value="All"/>
+			<Argument Name="Service" Value="AWSECommerceService"/>
+			<Argument Name="Timestamp" Value="2016-12-31T14:39:39Z"/>
+			<Argument Name="Version" Value="2013-08-01"/>
+			<Argument Name="Signature" Value="ZiqXY2hFD8x7fesuxl/gIJx1PlBK/Kaip6hS2Z8Lpjk="/>
+		</Arguments>
+		<RequestProcessingTime>0.2051609900000000</RequestProcessingTime>
+	</OperationRequest>
+	<Items>
+		<Request>
+			<IsValid>True</IsValid>
+			<ItemSearchRequest>
+				<Keywords>sennheiser</Keywords>
+				<ResponseGroup>ItemAttributes</ResponseGroup>
+				<ResponseGroup>ItemIds</ResponseGroup>
+				<ResponseGroup>OfferFull</ResponseGroup>
+				<ResponseGroup>Offers</ResponseGroup>
+				<ResponseGroup>OfferSummary</ResponseGroup>
+				<SearchIndex>All</SearchIndex>
+			</ItemSearchRequest>
+		</Request>
+		<TotalResults>21399</TotalResults>
+		<TotalPages>2140</TotalPages>
+		<MoreSearchResultsUrl>https://www.amazon.com/gp/redirect.html?linkCode=xm2&amp;SubscriptionId=AKIAITNAT53SLPSW67FA&amp;location=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3Dsennheiser%26url%3Dsearch-alias%253Daws-amazon-aps&amp;tag=consumerdat05-20&amp;creative=386001&amp;camp=2025</MoreSearchResultsUrl>
+		<Item>
+			<ASIN>B01JP436TS</ASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-HD-598-Cs-Headphone/dp/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB01JP436TS</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-HD-598-Cs-Headphone/dp/tech-data/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB01JP436TS%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB01JP436TS%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB01JP436TS%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<Color>black</Color>
+				<EAN>0615104280113</EAN>
+				<EANList>
+					<EANListElement>0615104280113</EANListElement>
+					<EANListElement>4044155214215</EANListElement>
+				</EANList>
+				<Feature>Premium, audiophile-grade over-ear, closed back headphones</Feature>
+				<Feature>Padded leatherette headband and luxurious fabric ear pads perfect for long listening sessions</Feature>
+				<Feature>Compatible with virtually every Audio device including phones, tablets, computers and stereo components</Feature>
+				<Feature>Two cable options included - 3m terminated with 6.3mm straight Plug and 1.2m with 1-button remote terminated with 3.5 mm straight Plug</Feature>
+				<Feature>2-year limited warranty only when purchased from an authorized dealer.</Feature>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">1025</Height>
+					<Length Units="hundredths-inches">810</Length>
+					<Width Units="hundredths-inches">400</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<ListPrice>
+					<Amount>24995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$249.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>HD 598 Cs</Model>
+				<MPN>HD 598 Cs</MPN>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">413</Height>
+					<Length Units="hundredths-inches">965</Length>
+					<Weight Units="hundredths-pounds">159</Weight>
+					<Width Units="hundredths-inches">807</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>HD 598 Cs</PartNumber>
+				<ProductGroup>CE</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 598 Cs Closed Back Headphone</Title>
+				<TradeInValue>
+					<Amount>3118</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$31.18</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104280113</UPC>
+				<UPCList>
+					<UPCListElement>615104280113</UPCListElement>
+				</UPCList>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>9995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$99.95</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>7496</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$74.96</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>83</TotalNew>
+				<TotalUsed>68</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B01JP436TS%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB01JP436TS</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>nFn3alXPfSMiu9IHEdhyFKvhg3aYrnixplikMm0RIQzzmeVSpvP983cFQhylO6DXO8uMkE0J0S%2BYC9A%2BLwqUlt9mZBNVYFfLkI66Zvb6NFPOl8Z2GBZ%2F6g%3D%3D</OfferListingId>
+						<Price>
+							<Amount>9995</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$99.95</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>15000</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$150.00</FormattedPrice>
+						</AmountSaved>
+						<PercentageSaved>60</PercentageSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B003LPTAYI</ASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-202-Professional-Headphones-Black/dp/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003LPTAYI</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-202-Professional-Headphones-Black/dp/tech-data/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB003LPTAYI%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB003LPTAYI%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB003LPTAYI%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<CatalogNumberList>
+					<CatalogNumberListElement>##-SENNHEISER-CASQUE-504291</CatalogNumberListElement>
+					<CatalogNumberListElement>FPS-161970</CatalogNumberListElement>
+					<CatalogNumberListElement>SH3203</CatalogNumberListElement>
+					<CatalogNumberListElement>HD202MK2</CatalogNumberListElement>
+					<CatalogNumberListElement>LN41986</CatalogNumberListElement>
+					<CatalogNumberListElement>SENHD202II</CatalogNumberListElement>
+					<CatalogNumberListElement>504291 P14612</CatalogNumberListElement>
+				</CatalogNumberList>
+				<Color>Black</Color>
+				<EAN>7332779155845</EAN>
+				<EANList>
+					<EANListElement>7332779155845</EANListElement>
+					<EANListElement>4012418051761</EANListElement>
+					<EANListElement>7387809142531</EANListElement>
+					<EANListElement>7332779450254</EANListElement>
+					<EANListElement>7123290486521</EANListElement>
+					<EANListElement>5052217271013</EANListElement>
+					<EANListElement>9154400048658</EANListElement>
+					<EANListElement>5554442432714</EANListElement>
+					<EANListElement>5053106596224</EANListElement>
+					<EANListElement>8902326893804</EANListElement>
+					<EANListElement>5052733357918</EANListElement>
+					<EANListElement>5554442232222</EANListElement>
+					<EANListElement>0033171309450</EANListElement>
+					<EANListElement>9154401263272</EANListElement>
+					<EANListElement>0615104185777</EANListElement>
+					<EANListElement>5052415167279</EANListElement>
+					<EANListElement>9154400175729</EANListElement>
+					<EANListElement>0989898819683</EANListElement>
+					<EANListElement>7123290185318</EANListElement>
+					<EANListElement>6151041857772</EANListElement>
+					<EANListElement>7332779474892</EANListElement>
+					<EANListElement>7332779081779</EANListElement>
+					<EANListElement>8859200013295</EANListElement>
+					<EANListElement>4044155055962</EANListElement>
+					<EANListElement>0887467068763</EANListElement>
+					<EANListElement>0755563296369</EANListElement>
+					<EANListElement>5053460566239</EANListElement>
+					<EANListElement>5053106184209</EANListElement>
+					<EANListElement>5052711096945</EANListElement>
+					<EANListElement>8111172168794</EANListElement>
+					<EANListElement>5052276447305</EANListElement>
+					<EANListElement>4044155054699</EANListElement>
+					<EANListElement>5053106197582</EANListElement>
+					<EANListElement>0654367704738</EANListElement>
+					<EANListElement>7137197147485</EANListElement>
+					<EANListElement>8850830700272</EANListElement>
+					<EANListElement>0794965249696</EANListElement>
+					<EANListElement>5052461004757</EANListElement>
+					<EANListElement>7337331878682</EANListElement>
+					<EANListElement>0070010041263</EANListElement>
+					<EANListElement>5052415887351</EANListElement>
+					<EANListElement>5053106184223</EANListElement>
+					<EANListElement>5052711910944</EANListElement>
+					<EANListElement>5052711219160</EANListElement>
+					<EANListElement>8859056103362</EANListElement>
+				</EANList>
+				<Feature>Ideal for DJ's and audio pros,Total harmonic distortion (THD):  &lt;0.5%</Feature>
+				<Feature>Very clean, deep bass response,Jack plug 3.5/6.3 mm stereo</Feature>
+				<Feature>Detachable ear cups for pro users</Feature>
+				<Feature>10 foot Y style cable, Frequency Range : 18Hz - 18kHz,Impedance: 32 Ohm</Feature>
+				<Feature>Wind-up belt clip for excess cable</Feature>
+				<IsAutographed>0</IsAutographed>
+				<IsMemorabilia>0</IsMemorabilia>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">940</Height>
+					<Length Units="hundredths-inches">800</Length>
+					<Weight Units="hundredths-pounds">29</Weight>
+					<Width Units="hundredths-inches">300</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>Italian</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>German</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>French</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>Spanish</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Original Language</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<ListPrice>
+					<Amount>3500</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$35.00</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>504291</Model>
+				<MPN>504291</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">310</Height>
+					<Length Units="hundredths-inches">850</Length>
+					<Weight Units="hundredths-pounds">88</Weight>
+					<Width Units="hundredths-inches">780</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>504291</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 202 II Professional Headphones (Black)</Title>
+				<UPC>070010041263</UPC>
+				<UPCList>
+					<UPCListElement>070010041263</UPCListElement>
+					<UPCListElement>989898819683</UPCListElement>
+					<UPCListElement>615104185777</UPCListElement>
+					<UPCListElement>794965249696</UPCListElement>
+					<UPCListElement>755563296369</UPCListElement>
+					<UPCListElement>887467068763</UPCListElement>
+					<UPCListElement>033171309450</UPCListElement>
+					<UPCListElement>654367704738</UPCListElement>
+				</UPCList>
+				<Warranty>2 year</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>1965</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$19.65</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>2021</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$20.21</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>73</TotalNew>
+				<TotalUsed>8</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B003LPTAYI%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003LPTAYI</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>o1jgcrFJRY04DxvCqOtvL%2FMeszb9UfzPCeC%2Bq%2FVrtsKE2oMhdBHcsRmg%2Bky6U8uSYQjN6YRM2OEXvoTllHLapG5O05pVKNL3JyleoG6b1fiuOP%2FpbWEcHA%3D%3D</OfferListingId>
+						<Price>
+							<Amount>2450</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$24.50</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>1050</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$10.50</FormattedPrice>
+						</AmountSaved>
+						<PercentageSaved>30</PercentageSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B0126HISOO</ASIN>
+			<ParentASIN>B016MAOS5E</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-HD-598-Over-Ear-Headphones/dp/B0126HISOO%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0126HISOO</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-HD-598-Over-Ear-Headphones/dp/tech-data/B0126HISOO%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0126HISOO%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0126HISOO%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0126HISOO%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B0126HISOO%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B0126HISOO%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B0126HISOO%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<Color>Black</Color>
+				<EAN>0615104269675</EAN>
+				<EANList>
+					<EANListElement>0615104269675</EANListElement>
+					<EANListElement>4044155206555</EANListElement>
+					<EANListElement>6953045430797</EANListElement>
+					<EANListElement>6953045470748</EANListElement>
+				</EANList>
+				<Feature>Premium, audiophile-grade over-ear, open back headphones</Feature>
+				<Feature>Padded leatherette headband and luxurious velour covered ear pads perfect for long listening sessions</Feature>
+				<Feature>Compatible with virtually every audio device including phones, tablets, computers and stereo components</Feature>
+				<Feature>Two cable options (3 meters and 1.2 meters) included along with 3.5mm adapter plug</Feature>
+				<Feature>2-year limited warranty only when purchased from an authorized dealer.</Feature>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">940</Height>
+					<Length Units="hundredths-inches">410</Length>
+					<Weight Units="hundredths-pounds">126</Weight>
+					<Width Units="hundredths-inches">810</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<ListPrice>
+					<Amount>14731</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$147.31</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>HD 598 SE</Model>
+				<MPN>HD 598 SE</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">413</Height>
+					<Length Units="hundredths-inches">949</Length>
+					<Weight Units="hundredths-pounds">132</Weight>
+					<Width Units="hundredths-inches">819</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>HD 598 SE</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<ReleaseDate>2015-10-15</ReleaseDate>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 598 Special Edition Over-Ear Headphones - Black</Title>
+				<TradeInValue>
+					<Amount>5289</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$52.89</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104269675</UPC>
+				<UPCList>
+					<UPCListElement>615104269675</UPCListElement>
+				</UPCList>
+				<Warranty>2 year coverage for parts</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>14215</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$142.15</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>12520</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$125.20</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>14</TotalNew>
+				<TotalUsed>5</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B0126HISOO%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0126HISOO</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>QFpFJafeE3DSvDk0QhGQyj3dCYY3O7uk0jHf%2FFQixOmqOj2yy21A7rsl26IpMI6Qf1EwI%2Btjm0FIIAoNwza7Tzd1UTixrYRJuGVHXb6ZEJIwFzhd646QDQ%3D%3D</OfferListingId>
+						<Price>
+							<Amount>14730</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$147.30</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>1</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$0.01</FormattedPrice>
+						</AmountSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B0042A8CW2</ASIN>
+			<ParentASIN>B016MAOS5E</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-HD-598-Over-Ear-Headphones/dp/B0042A8CW2%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0042A8CW2</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-HD-598-Over-Ear-Headphones/dp/tech-data/B0042A8CW2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB0042A8CW2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB0042A8CW2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB0042A8CW2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B0042A8CW2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B0042A8CW2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B0042A8CW2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<CatalogNumberList>
+					<CatalogNumberListElement>##-SENNHEISER-CASQUE-504633</CatalogNumberListElement>
+					<CatalogNumberListElement>LN41988</CatalogNumberListElement>
+					<CatalogNumberListElement>##-SENNHEISER-CASQUE-504685</CatalogNumberListElement>
+				</CatalogNumberList>
+				<Color>Ivory</Color>
+				<EAN>7387809265759</EAN>
+				<EANList>
+					<EANListElement>7387809265759</EANListElement>
+					<EANListElement>4044155056082</EANListElement>
+					<EANListElement>8859056103386</EANListElement>
+					<EANListElement>0780746985853</EANListElement>
+					<EANListElement>8859056148004</EANListElement>
+					<EANListElement>0033171306947</EANListElement>
+					<EANListElement>0700987276374</EANListElement>
+					<EANListElement>0404415505608</EANListElement>
+					<EANListElement>8859056104055</EANListElement>
+					<EANListElement>0700987276381</EANListElement>
+					<EANListElement>8902324574170</EANListElement>
+					<EANListElement>0765230133422</EANListElement>
+					<EANListElement>6160004003880</EANListElement>
+					<EANListElement>0615104187733</EANListElement>
+					<EANListElement>0712306122866</EANListElement>
+					<EANListElement>8859056183296</EANListElement>
+					<EANListElement>5554442231430</EANListElement>
+					<EANListElement>0707223279366</EANListElement>
+				</EANList>
+				<Feature>Premium, audiophile-grade over-ear, open back headphones</Feature>
+				<Feature>Lightweight with luxurious velour ear pads for extreme comfort</Feature>
+				<Feature>Compatible with virtually every audio device including phones, tablets, computers and stereo components</Feature>
+				<Feature>Detachable 3m cable (includes 3.5mm adapter plug)</Feature>
+				<Feature>2-year limited warranty only when purchased from an authorized dealer.</Feature>
+				<Feature>Open-back headphones allow ambient noise for a more natural sound experience. The cable is a bayonet type mount that must be firmly inserted into the input on the ear cup and twisted clockwise until it locks to make sure the connection is intact. Manufacturing website http://en-ie.sennheiser.com/global-downloads/file/717/542504_Audiophile_Spec_GB.pdf</Feature>
+				<Format>CD-ROM</Format>
+				<IsAutographed>0</IsAutographed>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<IsMemorabilia>0</IsMemorabilia>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">807</Height>
+					<Length Units="hundredths-inches">394</Length>
+					<Weight Units="hundredths-pounds">60</Weight>
+					<Width Units="hundredths-inches">945</Width>
+				</ItemDimensions>
+				<ItemPartNumber>504633</ItemPartNumber>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>Spanish</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Original Language</Type>
+					</Language>
+					<Language>
+						<Name>French</Name>
+						<Type>Original Language</Type>
+					</Language>
+					<Language>
+						<Name>Spanish</Name>
+						<Type>Original Language</Type>
+					</Language>
+					<Language>
+						<Name>Spanish</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<LegalDisclaimer>Product comes with original packaging and cable.</LegalDisclaimer>
+				<ListPrice>
+					<Amount>14997</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$149.97</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>HD 598</Model>
+				<MPN>504633</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<OperatingSystem>N/A</OperatingSystem>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">425</Height>
+					<Length Units="hundredths-inches">953</Length>
+					<Weight Units="hundredths-pounds">132</Weight>
+					<Width Units="hundredths-inches">811</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>504633</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 598 Over-Ear Headphones - Ivory</Title>
+				<TradeInValue>
+					<Amount>5406</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$54.06</FormattedPrice>
+				</TradeInValue>
+				<UPC>700987276374</UPC>
+				<UPCList>
+					<UPCListElement>700987276374</UPCListElement>
+					<UPCListElement>707223279366</UPCListElement>
+					<UPCListElement>033171306947</UPCListElement>
+					<UPCListElement>615104187733</UPCListElement>
+					<UPCListElement>700987276381</UPCListElement>
+					<UPCListElement>712306122866</UPCListElement>
+					<UPCListElement>765230133422</UPCListElement>
+					<UPCListElement>780746985853</UPCListElement>
+					<UPCListElement>404415505608</UPCListElement>
+				</UPCList>
+				<Warranty>2 year coverage for parts</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>14415</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$144.15</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>14900</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$149.00</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>31</TotalNew>
+				<TotalUsed>3</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B0042A8CW2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0042A8CW2</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>iU9mUQSv5m%2BcXB1a6hSYfy0E6iEv33%2BeG4G%2F6v%2B5pHvVFqzRlv4yog%2F5QYQGsU15%2BVKpw3aoWLEQMZBm8BRFnUdT61nq6Zg5SAm55nkbIlGwSGL6yr%2BO%2Bg%3D%3D</OfferListingId>
+						<Price>
+							<Amount>14993</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$149.93</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>4</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$0.04</FormattedPrice>
+						</AmountSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B00SNI44CQ</ASIN>
+			<ParentASIN>B00V4NIY00</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-Momentum-Wireless-Active-Cancellation-/dp/B00SNI44CQ%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00SNI44CQ</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-Momentum-Wireless-Active-Cancellation-/dp/tech-data/B00SNI44CQ%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00SNI44CQ%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00SNI44CQ%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00SNI44CQ%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B00SNI44CQ%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B00SNI44CQ%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B00SNI44CQ%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<AspectRatio>Unknown</AspectRatio>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<CatalogNumberList>
+					<CatalogNumberListElement>143178</CatalogNumberListElement>
+				</CatalogNumberList>
+				<Color>Black</Color>
+				<EAN>0796594169307</EAN>
+				<EANList>
+					<EANListElement>0796594169307</EANListElement>
+					<EANListElement>0615104258044</EANListElement>
+				</EANList>
+				<Feature>Noise Gard hybrid active noise cancellation blocks ambient noise using 4 microphones for ultimate isolation to dramatically improve sound quality in noisy environments</Feature>
+				<Feature>22 hour battery life with both Bluetooth and Noise Gard activated to ensure performance during long commutes or plane flights</Feature>
+				<Feature>Technology uses 2 built-in microphones working seamlessly to improve voice quality and remove external noise during phone calls</Feature>
+				<Feature>Two year warranty when purchased from an authorized Sennheiser dealer</Feature>
+				<Feature>** VERY IMPORTANT ** Please Note: Detachable cable must be inserted into headphone until it &quot;clicks&quot; and twisted clockwise (to the right) to lock the cable in place</Feature>
+				<IsAutographed>0</IsAutographed>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">990</Height>
+					<Length Units="hundredths-inches">740</Length>
+					<Weight Units="hundredths-pounds">200</Weight>
+					<Width Units="hundredths-inches">400</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<ListPrice>
+					<Amount>49995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$499.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>506250</Model>
+				<MPN>506250</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">410</Height>
+					<Length Units="hundredths-inches">920</Length>
+					<Weight Units="hundredths-pounds">185</Weight>
+					<Width Units="hundredths-inches">740</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>506250</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser Momentum 2.0 Wireless with Active Noise Cancellation- Black</Title>
+				<TradeInValue>
+					<Amount>18754</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$187.54</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104258044</UPC>
+				<UPCList>
+					<UPCListElement>615104258044</UPCListElement>
+					<UPCListElement>796594169307</UPCListElement>
+				</UPCList>
+				<Warranty>2 year coverage for parts</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<FormattedPrice>Too low to display</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>30514</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$305.14</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>13</TotalNew>
+				<TotalUsed>30</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B00SNI44CQ%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00SNI44CQ</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>4KqUTsxa4x2q83i419n2rewjqWTKSb0HZocxFtlqQ0jHa95DparNn6gA06MkhPMTpG5rM3QFgTjrxRlGu4%2BBkoWXB4zV3zQ1y0pEmH8KiGiVziT6yx2Uow%3D%3D</OfferListingId>
+						<Price>
+							<FormattedPrice>Too low to display</FormattedPrice>
+						</Price>
+						<Availability>Usually ships in 2 days</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>48</MinimumHours>
+							<MaximumHours>48</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B00N3RFFZ2</ASIN>
+			<ParentASIN>B0144QGJFA</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-Momentum-Ear-iOS-version/dp/B00N3RFFZ2%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00N3RFFZ2</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-Momentum-Ear-iOS-version/dp/tech-data/B00N3RFFZ2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00N3RFFZ2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00N3RFFZ2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00N3RFFZ2%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B00N3RFFZ2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B00N3RFFZ2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B00N3RFFZ2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<Color>Black</Color>
+				<EAN>0615104255845</EAN>
+				<EANList>
+					<EANListElement>0615104255845</EANListElement>
+				</EANList>
+				<Feature>Apple iOS model using newly designed, tangle-free oval cable featuring 3-button in-line remote with integrated microphone</Feature>
+				<Feature>Custom machined, low resonance stainless steel housing deliver a detailed and accurate sound</Feature>
+				<Feature>High-quality dynamic transducers produce high output level with low distortion</Feature>
+				<Feature>In ear canal design provides excellent attenuation of ambient noise. Multiple sized ear tips included insuring a personalized fit</Feature>
+				<Feature>Two year warranty when purchased from an authorized Sennheiser dealer</Feature>
+				<IsAutographed>0</IsAutographed>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">690</Height>
+					<Length Units="hundredths-inches">460</Length>
+					<Weight Units="hundredths-pounds">25</Weight>
+					<Width Units="hundredths-inches">175</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<ListPrice>
+					<Amount>9995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$99.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>506231</Model>
+				<MPN>M2 IEi</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">180</Height>
+					<Length Units="hundredths-inches">625</Length>
+					<Weight Units="hundredths-pounds">35</Weight>
+					<Width Units="hundredths-inches">460</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>M2 IEi</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser Momentum In Ear (iOS version) - Black Red</Title>
+				<TradeInValue>
+					<Amount>2536</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$25.36</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104255845</UPC>
+				<UPCList>
+					<UPCListElement>615104255845</UPCListElement>
+				</UPCList>
+				<Warranty>2 year coverage for parts</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<FormattedPrice>Too low to display</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>6182</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$61.82</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>13</TotalNew>
+				<TotalUsed>40</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B00N3RFFZ2%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00N3RFFZ2</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>9PuimfI5Wa5BtRI6uwmPjDAoIcLluQXY6INqVUpQjlh%2Fu%2FsBxGPbe12UudvudEY2W%2FVOMz1%2FjOnQX84ZlyUuk3Q%2B5%2BqWEdk8741BsgzGt3YyuJW6RRjlPQ%3D%3D</OfferListingId>
+						<Price>
+							<Amount>8699</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$86.99</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>1296</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$12.96</FormattedPrice>
+						</AmountSaved>
+						<PercentageSaved>13</PercentageSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B000065BPB</ASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-HD-280-Pro-Headphones/dp/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000065BPB</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-HD-280-Pro-Headphones/dp/tech-data/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB000065BPB%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB000065BPB%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB000065BPB%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Artist>Sennheiser</Artist>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<CatalogNumberList>
+					<CatalogNumberListElement>HD280PRORPFBA</CatalogNumberListElement>
+					<CatalogNumberListElement>566996660</CatalogNumberListElement>
+					<CatalogNumberListElement>HD280</CatalogNumberListElement>
+					<CatalogNumberListElement>SH3280</CatalogNumberListElement>
+					<CatalogNumberListElement>B000065BPB</CatalogNumberListElement>
+					<CatalogNumberListElement>HD280pro</CatalogNumberListElement>
+					<CatalogNumberListElement>R310049</CatalogNumberListElement>
+					<CatalogNumberListElement>4012418049744</CatalogNumberListElement>
+					<CatalogNumberListElement>HD-280PRO J01232</CatalogNumberListElement>
+					<CatalogNumberListElement>HD-280PRO D05727</CatalogNumberListElement>
+					<CatalogNumberListElement>135901</CatalogNumberListElement>
+					<CatalogNumberListElement>AZN-1364</CatalogNumberListElement>
+					<CatalogNumberListElement>176741</CatalogNumberListElement>
+					<CatalogNumberListElement>4156</CatalogNumberListElement>
+					<CatalogNumberListElement>256</CatalogNumberListElement>
+					<CatalogNumberListElement>HD 280 Pro</CatalogNumberListElement>
+					<CatalogNumberListElement>4012418049744 004974</CatalogNumberListElement>
+				</CatalogNumberList>
+				<Color>Black</Color>
+				<EAN>9789792318258</EAN>
+				<EANList>
+					<EANListElement>7426005595526</EANListElement>
+					<EANListElement>5055818688655</EANListElement>
+					<EANListElement>0033171369065</EANListElement>
+					<EANListElement>8859200013806</EANListElement>
+					<EANListElement>4012418049744</EANListElement>
+					<EANListElement>0798304268904</EANListElement>
+					<EANListElement>8859056183289</EANListElement>
+					<EANListElement>8902321875225</EANListElement>
+					<EANListElement>0700315907161</EANListElement>
+					<EANListElement>8859056103416</EANListElement>
+					<EANListElement>0615104049741</EANListElement>
+					<EANListElement>8859200013387</EANListElement>
+					<EANListElement>0658700901075</EANListElement>
+					<EANListElement>9789792318258</EANListElement>
+					<EANListElement>0602104049741</EANListElement>
+					<EANListElement>0989898818570</EANListElement>
+				</EANList>
+				<Feature>Dynamic, closed-ear headphones with up to 32 dB attenuation of outside sound</Feature>
+				<Feature>Lightweight and comfortable, ergonomic design, Cord Length -  3.3 - 9.8 feet Coiled</Feature>
+				<Feature>Extended frequency response and warm, natural sound reproduction</Feature>
+				<Feature>Around-the-ear design with padded earcups</Feature>
+				<Feature>Earpads, headband padding, and audio cord are easily replaceable, ensuring long life</Feature>
+				<Feature>Dynamic, closed-ear headphones with up to 32 dB attenuation of outside sound</Feature>
+				<Feature>Lightweight and comfortable, ergonomic design</Feature>
+				<Feature>Extended frequency response and warm, natural sound reproduction</Feature>
+				<Feature>Collapsible earpieces for compact transport</Feature>
+				<Feature>Earpads, headband padding, and audio cord are easily replaceable, ensuring long life</Feature>
+				<IsAutographed>0</IsAutographed>
+				<ISBN>9792318259</ISBN>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<IsMemorabilia>0</IsMemorabilia>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">800</Height>
+					<Length Units="hundredths-inches">700</Length>
+					<Weight Units="hundredths-pounds">100</Weight>
+					<Width Units="hundredths-inches">400</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>Spanish</Name>
+						<Type>Manual</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Original Language</Type>
+					</Language>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
+				<ListPrice>
+					<Amount>9995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$99.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>004974</Model>
+				<MPN>004974</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">410</Height>
+					<Length Units="hundredths-inches">960</Length>
+					<Weight Units="hundredths-pounds">165</Weight>
+					<Width Units="hundredths-inches">900</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>004974</PartNumber>
+				<Platform>Not Machine Specific</Platform>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>SOUND_AND_RECORDING_EQUIPMENT</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 280 Pro Headphones</Title>
+				<UPC>615104049741</UPC>
+				<UPCList>
+					<UPCListElement>615104049741</UPCListElement>
+					<UPCListElement>658700901075</UPCListElement>
+					<UPCListElement>989898818570</UPCListElement>
+					<UPCListElement>700315907161</UPCListElement>
+					<UPCListElement>798304268904</UPCListElement>
+					<UPCListElement>033171369065</UPCListElement>
+					<UPCListElement>602104049741</UPCListElement>
+				</UPCList>
+				<Warranty>Sennheiser Service Policy: (Updated January 2002) The warranty period for all Sennheiser products is two years from the date of purchase. Either product registration or a valid dated proof of purchase is accepted to establish the warranty period. See manufacture’s site for full warranty conditions and details. http://www.sennheiserusa.com/pages/company/contact/index.htm SHIP TO:Sennheiser Electronic Corp. Attn: Service Department 1 Enterprise Drive Old Lyme, CT 06371 Email: service@sennheiserusa.com</Warranty>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>9500</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$95.00</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>8246</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$82.46</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>25</TotalNew>
+				<TotalUsed>14</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B000065BPB%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000065BPB</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Amazon.com</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>YUniZeoHZXrlRa5aXeBmIdTahQcNTVC2T7zZeD7wmLDC77IzL608FsiKdYGtTqnGy%2FB0sObGHlMFLle8e7oxZS9Hqhmi0e%2BSjbvPFkssCQA%3D</OfferListingId>
+						<Price>
+							<Amount>9995</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$99.95</FormattedPrice>
+						</Price>
+						<AvailabilityAttributes>
+							<AvailabilityType>futureDate</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B00NQ17SKU</ASIN>
+			<ParentASIN>B00OW44M0E</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-CX-3-00-Red-Headphone/dp/B00NQ17SKU%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00NQ17SKU</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-CX-3-00-Red-Headphone/dp/tech-data/B00NQ17SKU%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB00NQ17SKU%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB00NQ17SKU%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB00NQ17SKU%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B00NQ17SKU%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B00NQ17SKU%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B00NQ17SKU%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<Color>Red</Color>
+				<EAN>8109204382096</EAN>
+				<EANList>
+					<EANListElement>8109204382096</EANListElement>
+					<EANListElement>6953041107921</EANListElement>
+					<EANListElement>0615104257948</EANListElement>
+				</EANList>
+				<Feature>18-ohm impedance transducers deliver extended powerful sound featuring extended frequency response and deep bass</Feature>
+				<Feature>Optimum In-Ear canal fit with 4 sizes of ear adaptors providing high attenuation of ambient noise</Feature>
+				<Feature>1.2 m tangle-free, elliptical cable with 3.5 mm right-angled connector</Feature>
+				<Feature>Convenient carry case included</Feature>
+				<Feature>Two year warranty when purchased from an authorized Sennheiser dealer</Feature>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">500</Height>
+					<Length Units="hundredths-inches">400</Length>
+					<Weight Units="hundredths-pounds">27</Weight>
+					<Width Units="hundredths-inches">150</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<ListPrice>
+					<Amount>5495</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$54.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<Model>CX 3.00 Red</Model>
+				<MPN>CX 3.00 Red</MPN>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">157</Height>
+					<Length Units="hundredths-inches">504</Length>
+					<Weight Units="hundredths-pounds">13</Weight>
+					<Width Units="hundredths-inches">386</Width>
+				</PackageDimensions>
+				<PackageQuantity>1</PackageQuantity>
+				<PartNumber>CX 3.00 Red</PartNumber>
+				<ProductGroup>Speakers</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser CX 3.00 Red In-Ear Canal Headphone</Title>
+				<TradeInValue>
+					<Amount>160</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$1.60</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104257948</UPC>
+				<UPCList>
+					<UPCListElement>615104257948</UPCListElement>
+				</UPCList>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>2999</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$29.99</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>2399</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$23.99</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>28</TotalNew>
+				<TotalUsed>4</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B00NQ17SKU%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00NQ17SKU</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>Indigo-Music</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>nFn3alXPfSMSD%2BxJkw0uooelzNOW070Zn8pUgFqmGht1Sr%2Bp7TeUfa8w7S3KyYATUmQfFhSKtoS4azCc1TShd0niqcyp8z%2BIsHt%2FP0t64lOlA6%2BDzmskCYdu6m1ko2Q9eBXgPfsTVbqZsPgYjChGgOj5J8krCnM%2B</OfferListingId>
+						<Price>
+							<Amount>2999</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$29.99</FormattedPrice>
+						</Price>
+						<AmountSaved>
+							<Amount>2496</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$24.96</FormattedPrice>
+						</AmountSaved>
+						<PercentageSaved>45</PercentageSaved>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+		<Item>
+			<ASIN>B001OTZ8DA</ASIN>
+			<ParentASIN>B01MQJ2V8F</ParentASIN>
+			<DetailPageURL>https://www.amazon.com/Sennheiser-800-Reference-Dynamic-Headphone/dp/B001OTZ8DA%3Fpsc%3D1%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001OTZ8DA</DetailPageURL>
+			<ItemLinks>
+				<ItemLink>
+					<Description>Technical Details</Description>
+					<URL>https://www.amazon.com/Sennheiser-800-Reference-Dynamic-Headphone/dp/tech-data/B001OTZ8DA%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Baby Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB001OTZ8DA%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wedding Registry</Description>
+					<URL>https://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB001OTZ8DA%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Add To Wishlist</Description>
+					<URL>https://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB001OTZ8DA%26SubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>Tell A Friend</Description>
+					<URL>https://www.amazon.com/gp/pdp/taf/B001OTZ8DA%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Customer Reviews</Description>
+					<URL>https://www.amazon.com/review/product/B001OTZ8DA%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+				<ItemLink>
+					<Description>All Offers</Description>
+					<URL>https://www.amazon.com/gp/offer-listing/B001OTZ8DA%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</URL>
+				</ItemLink>
+			</ItemLinks>
+			<ItemAttributes>
+				<AspectRatio>Unknown</AspectRatio>
+				<Binding>Electronics</Binding>
+				<Brand>Sennheiser</Brand>
+				<Color>Grey</Color>
+				<EAN>0615104102958</EAN>
+				<EANList>
+					<EANListElement>0615104102958</EANListElement>
+					<EANListElement>8902329699717</EANListElement>
+					<EANListElement>4044156002354</EANListElement>
+				</EANList>
+				<Feature>Weight (without cable): approx. 330 g</Feature>
+				<Feature>Sound pressure level at 1 kHz: 102 dB (1 Vrms)</Feature>
+				<Feature>Nominal impedance: 300 Ohms</Feature>
+				<Feature>Frequency Response: 6-51,000 Hz (-10 dB); 14-44,100 Hz (-3 dB)</Feature>
+				<Feature>Contact pressure: approx. 3.4 N ± 0.3 N</Feature>
+				<IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+				<ItemDimensions>
+					<Height Units="hundredths-inches">591</Height>
+					<Length Units="hundredths-inches">1378</Length>
+					<Weight Units="hundredths-pounds">73</Weight>
+					<Width Units="hundredths-inches">1080</Width>
+				</ItemDimensions>
+				<Label>Sennheiser</Label>
+				<Languages>
+					<Language>
+						<Name>English</Name>
+						<Type>Unknown</Type>
+					</Language>
+				</Languages>
+				<LegalDisclaimer>Please read the description in item's condition.</LegalDisclaimer>
+				<ListPrice>
+					<Amount>96995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$969.95</FormattedPrice>
+				</ListPrice>
+				<Manufacturer>Sennheiser</Manufacturer>
+				<ManufacturerPartsWarrantyDescription>2 Years</ManufacturerPartsWarrantyDescription>
+				<Model>HD800</Model>
+				<MPN>HD800</MPN>
+				<NumberOfDiscs>1</NumberOfDiscs>
+				<NumberOfItems>1</NumberOfItems>
+				<PackageDimensions>
+					<Height Units="hundredths-inches">606</Height>
+					<Length Units="hundredths-inches">1409</Length>
+					<Weight Units="hundredths-pounds">542</Weight>
+					<Width Units="hundredths-inches">1102</Width>
+				</PackageDimensions>
+				<PackageQuantity>4</PackageQuantity>
+				<PartNumber>HD800</PartNumber>
+				<ProductGroup>Audio Video</ProductGroup>
+				<ProductTypeName>HEADPHONES</ProductTypeName>
+				<Publisher>Sennheiser</Publisher>
+				<Size>medium</Size>
+				<Studio>Sennheiser</Studio>
+				<Title>Sennheiser HD 800 Reference Dynamic Headphone</Title>
+				<TradeInValue>
+					<Amount>30000</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$300.00</FormattedPrice>
+				</TradeInValue>
+				<UPC>615104102958</UPC>
+				<UPCList>
+					<UPCListElement>615104102958</UPCListElement>
+				</UPCList>
+			</ItemAttributes>
+			<OfferSummary>
+				<LowestNewPrice>
+					<Amount>96995</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$969.95</FormattedPrice>
+				</LowestNewPrice>
+				<LowestUsedPrice>
+					<Amount>85000</Amount>
+					<CurrencyCode>USD</CurrencyCode>
+					<FormattedPrice>$850.00</FormattedPrice>
+				</LowestUsedPrice>
+				<TotalNew>29</TotalNew>
+				<TotalUsed>7</TotalUsed>
+				<TotalCollectible>0</TotalCollectible>
+				<TotalRefurbished>0</TotalRefurbished>
+			</OfferSummary>
+			<Offers>
+				<TotalOffers>1</TotalOffers>
+				<TotalOfferPages>1</TotalOfferPages>
+				<MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B001OTZ8DA%3FSubscriptionId%3DAKIAITNAT53SLPSW67FA%26tag%3Dconsumerdat05-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB001OTZ8DA</MoreOffersUrl>
+				<Offer>
+					<Merchant>
+						<Name>New Trading Store</Name>
+					</Merchant>
+					<OfferAttributes>
+						<Condition>New</Condition>
+					</OfferAttributes>
+					<OfferListing>
+						<OfferListingId>Qnz3BRUcVLubuURyDgZovs5eCWTRzpGeW3U0RapHNmirR%2B9ffTvxoYMp8KE66ZRdmkMCPGBdwubKpa8MBNWnZYrN8GBDrqToemHjGZU9SAOvGbJ1ky%2BvoEt2X%2BqCct2FDUAnwNC%2BJATCl6E9JmpwOQ%3D%3D</OfferListingId>
+						<Price>
+							<Amount>96995</Amount>
+							<CurrencyCode>USD</CurrencyCode>
+							<FormattedPrice>$969.95</FormattedPrice>
+						</Price>
+						<Availability>Usually ships in 24 hours</Availability>
+						<AvailabilityAttributes>
+							<AvailabilityType>now</AvailabilityType>
+							<MinimumHours>0</MinimumHours>
+							<MaximumHours>0</MaximumHours>
+						</AvailabilityAttributes>
+						<IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+						<IsEligibleForPrime>1</IsEligibleForPrime>
+					</OfferListing>
+				</Offer>
+			</Offers>
+		</Item>
+	</Items>
+</ItemSearchResponse>

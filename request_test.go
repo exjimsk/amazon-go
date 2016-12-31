@@ -69,22 +69,3 @@ func TestSignedAmazonRequest_CartCreate(t *testing.T) {
 
 	assert.True(t, amazon.HashSignature(testCanonicalStringCartCreate, r.Credentials.SecretKey) == testHashSignatureCartCreate)
 }
-
-func TestRealRequest(t *testing.T) {
-	c := amazon.Credentials{
-		AssociateTag: "mytag-20",
-		AccessKeyId:  "AKIAIOSFODNN7EXAMPLE",
-		SecretKey:    "1234567890",
-		Marketplace:  "webservices.amazon.com",
-	}
-
-	r := amazon.NewRequest(c)
-
-	r.Parameters["ItemId"] = "0679722769"
-	r.Parameters["Operation"] = "ItemLookup"
-	r.Parameters["ResponseGroup"] = "Images,ItemAttributes,Offers,Reviews"
-	r.Parameters["Service"] = "AWSECommerceService"
-	r.Parameters["Timestamp"] = "2014-08-18T12:00:00Z" // use amazon.CurrentTimestamp() for actual requests
-	r.Parameters["Version"] = "2013-08-01"
-
-}

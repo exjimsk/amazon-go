@@ -2,7 +2,7 @@
 Amazon product API wrapper
 
 	
-To create a signed Amazon Product request, use a Credentials struct to create a Request type, timestamp your request and get the signed request URL.
+How to use:
 
 
 	import (
@@ -10,13 +10,14 @@ To create a signed Amazon Product request, use a Credentials struct to create a 
 		
 		"io/ioutil"
 		"net/http"
+		"encoding/xml"
 		
 		"fmt"
 	)
 	
 	fun Main() {
 
-		// use own Amazon affiliate information here
+		// replace with your own Amazon affiliate information here
 		c := amazon.Credentials{ 
 			AssociateTag: "mytag-20", 
 			AccessKeyId: "AKIAIOSFODNN7EXAMPLE", 
@@ -25,9 +26,9 @@ To create a signed Amazon Product request, use a Credentials struct to create a 
 	  
 		r := amazon.NewRequest(c)
 
-		r.Parameters["ItemId"] = "0679722769"
-		r.Parameters["Operation"] = "ItemLookup"
-		r.Parameters["ResponseGroup"] = "Images,ItemAttributes,Offers,Reviews"
+		r.Parameters["Keywords"] = "Sony laptop"
+		r.Parameters["Operation"] = "ItemSearch"
+		r.Parameters["ResponseGroup"] = "ItemAttributes,Offers,Reviews"
 		r.Parameters["Service"] = "AWSECommerceService"
 		r.Parameters["Version"] = "2013-08-01"
 		
@@ -37,10 +38,19 @@ To create a signed Amazon Product request, use a Credentials struct to create a 
 		
 		signed_url := r.SignedURL()
 		resp, err := http.Get(signed_url)
-		if err == nil {
-			defer resp.Body.Close()
-			body, _ := ioutil.ReadAll(resp.Body)
-			
-			fmt.Println(body)
+		if err != nil {
+			panic(err)
+		}
+		
+		defer resp.Body.Close()
+		b, _ := ioutil.ReadAll(resp.Body)
+		
+		isr := amazon.ItemSearchResponse{}
+		if err := xml.Unmarshal(b, &isr); err != nil {
+			panic(err)
+		}
+		
+		for _, item := range isr.Items.Items {
+			// read item
 		}
 	}
