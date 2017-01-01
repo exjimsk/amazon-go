@@ -73,6 +73,10 @@ func (r Request) CanonicalString() string {
 	return fmt.Sprintf("GET\n%v\n%v\n%v", r.URL.Host, r.URL.Path, r.sortedParametersAsString(true))
 }
 
+/*
+This generates the url to use for sending Amazon Product API requests.  Assuming the credentials
+and search parameters passed into the Request are correct, this will generate a valid url string.
+*/
 func (r Request) SignedURL() string {
 	cStr := r.CanonicalString()
 	sig := HashSignature(cStr, r.Credentials.SecretKey)
