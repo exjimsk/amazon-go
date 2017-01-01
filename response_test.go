@@ -45,7 +45,7 @@ func TestItemSearchResponse(t *testing.T) {
 	assert.True(t, isr.Items.Items[0].ItemAttributes.ItemDimensions.Height.Value > 0)
 	assert.True(t, len(isr.Items.Items[0].ItemAttributes.ItemDimensions.Height.Units) > 0)
 
-	assert.True(t, len(isr.Items.Items[0].ItemAttributes.ListPrice.Amount) > 0)
+	assert.True(t, isr.Items.Items[0].ItemAttributes.ListPrice.Amount > 0)
 	assert.True(t, len(isr.Items.Items[0].ItemAttributes.ListPrice.CurrencyCode) > 0)
 	assert.True(t, len(isr.Items.Items[0].ItemAttributes.ListPrice.FormattedPrice) > 0)
 

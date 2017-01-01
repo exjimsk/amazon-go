@@ -89,12 +89,12 @@ type itemSearchResponseDimensions struct {
 }
 
 type itemSearchResponseMeasurement struct {
-	Units string `xml:"Units,attr"`
-	Value int    `xml:",chardata"`
+	Units string  `xml:"Units,attr"`
+	Value float64 `xml:",chardata"`
 }
 
 type itemSearchResponsePrice struct {
-	Amount         string
+	Amount         float64
 	CurrencyCode   string
 	FormattedPrice string
 }

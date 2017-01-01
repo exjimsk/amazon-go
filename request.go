@@ -38,6 +38,9 @@ func HashSignature(str string, secret string) string {
 	return hash
 }
 
+/*
+This generates the formatted current timestamp parameter value for requests.
+*/
 func CurrentTimestamp() string {
 	return time.Now().UTC().Format(time.RFC3339)
 }
@@ -58,6 +61,9 @@ func NewRequest(c Credentials) Request {
 	return r
 }
 
+/*
+This generates the unsigned url per Amazon Product API's specifications.
+*/
 func (r Request) UnsignedURL() string {
 	r.URL.RawQuery = r.sortedParametersAsString(true)
 	return r.URL.String()
@@ -97,4 +103,15 @@ func (r Request) sortedParametersAsString(escape bool) string {
 	// sort slice and join with ampersand
 	sort.Strings(parameters)
 	return strings.Join(parameters, "&")
+}
+
+/*
+The Amazon API keywords request parameter seems to break the request when it contains special characters like
+parentheses.  This function should be called on that value.
+*/
+func FormatKeywords(keywords string) string {
+	fk := strings.Replace(keywords, "(", "", -1)
+	fk = strings.Replace(fk, ")", "", -1)
+
+	return fk
 }
